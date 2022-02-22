@@ -16,10 +16,10 @@ def mov(pos):
     elif pos.bottom:
         robot.backwards()
         robot2.backwards()
-    elif pos.left():
+    elif pos.left:
         robot.left()
         robot2.left()
-    elif pos.right():
+    elif pos.right:
         robot.right()
         robot2.right()
 def stop()
